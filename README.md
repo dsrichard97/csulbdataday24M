@@ -1,9 +1,9 @@
 <!-- center banner -->
-
-<h1 align="center">Musical Artist Sentiment Analysis</h1>
 <p align="center">
   <img src="sent.jpg" alt="Sentiment Analysis Visualization" width="auto" height="auto" allow="autoplay">
 </p>
+<h1 align="center">Musical Artist Sentiment Analysis</h1>
+
 
 <!-- badges -->
 
@@ -52,11 +52,7 @@
   
   <h3>Library Installation</h3>
     <p>
-    Ensure you have R and RStudio installed on your computer. RStudio provides an integrated development environment (IDE) that makes coding in R easier.
-    </p>
-
-    <p>
-    R code libraries needed: tidyverse, tidytext, ggwordcloud, ggtext, showtext, gt
+    Ensure you have R and RStudio installed on your computer. RStudio provides an integrated development environment (IDE) that makes coding in R easier. Or Posit Cloud
     </p>
   </section>
 </P>
@@ -71,7 +67,6 @@
   </section>
 </p>
 
-
 <!-- Quick Glance at Results-->
 <p>
   <section id="glance">
@@ -81,6 +76,17 @@
     </p>
   </section>
 </p>
+
+
+
+<p align="center">
+  <img src="foto/bill.jpeg" alt="Sentiment Analysis Visualization" width="auto" height="auto" allow="autoplay">
+</p>
+
+<p align="center">
+  <img src="foto/bill2.jpeg" alt="Sentiment Analysis Visualization" width="auto" height="auto" allow="autoplay">
+</p>
+
 
 
 <!-- Steps-->
@@ -135,10 +141,14 @@ bing_sentiments &lt;- tidy_df %>%
 </ul>
 
 <h2>Step 7: Share Your Findings</h2>
-<p>Compile your analysis into a report using R Markdown.</p>
+<p>Compile your analysis into a report using Quattro or R markdown. Share on Github. Use as a project for resume.</p>
 
 </body>
   </section>
+</p>
+
+<p align="center">
+  <img src="foto/ag.jpeg" alt="Sentiment Analysis Visualization" width="auto" height="auto" allow="autoplay">
 </p>
 
 <!-- Quick Glance at Results-->
@@ -146,9 +156,10 @@ bing_sentiments &lt;- tidy_df %>%
   <section id="motivation">
     <h2>End Goal</h2>
     <p>
-      Data was extracted using a Token API using spotify access. For further replication on the use of an Spotify API: <li><a href="https://developer.spotify.com/documentation/web-api">Click here</a></li>
+      This project aims to inspire both students and data science enthusiasts to undertake their own projects, with the aspiration that through continued practice, they'll gain a deeper appreciation for the boundless creativity and narrative potential inherent in data and visualizations. For more insights and inspiration, consider exploring Andres's Medium post on the sentiment analysis of The Smiths, a quintessential English band that dominated the 80s: https://medium.com/@gonzalez_afc/sentiment-analysis-of-the-the-smiths-a-quintessential-english-band-that-ruled-the-80s-173266b1d697 </a></li>
     </p>
   </section>
 </p>
 
+<IMG SRC="foto/dance.gif">
 
