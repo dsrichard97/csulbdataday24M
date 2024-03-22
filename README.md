@@ -40,8 +40,7 @@
   <section id="how-to">
     <h2>Getting Started</h2>
     <p>
-    The focus of this project will be on Sentiment Analysis. The goal for this project 
-
+    The focus of this project will be on Sentiment Analysis towards music. The goal for this project 
     </p>
   </section>
 </P>
@@ -50,11 +49,8 @@
   <section id="data-source">
     <h2>Data Source</h2>
     <p>
-      The Iowa liquor sales dataset provides a comprehensive overview of wholesale purchases of liquor by retailers in the State of Iowa from January 1, 2012. As the State of Iowa controls the wholesale distribution of liquor for retail sale, this dataset gives a complete view of the retail liquor sales across the state. It encompasses wholesale orders made by various types of stores including grocery stores, liquor stores, and convenience stores. The dataset set spans for at least 28389280 rows, however, for the sake of reporting I used a sample data shrunk to 113131 rows.
+      Data was extracted using a Token API using spotify access. For further replication on the use of an Spotify API: <li><a href="https://developer.spotify.com/documentation/web-api">Click here</a></li>
     </p>
-    <ul>
-      <li><a href="https://csulb-my.sharepoint.com/:x:/g/personal/richard_diazdeleon01_student_csulb_edu/EYtynGus5R5DgXCk1WKdp-0BgBeH8GJF2gsOJ7Mf8YYZ6g?e=mtq3Bs">Excel Sharepoint</a></li>
-    </ul>
   </section>
 </p>
 
