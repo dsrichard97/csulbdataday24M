@@ -71,13 +71,6 @@
 <p>
   <section id="glance">
     <h2>Quick Glance</h2>
-    <p>
-      Data was extracted using a Token API using spotify access. For further replication on the use of an Spotify API: <li><a href="https://developer.spotify.com/documentation/web-api">Click here</a></li>
-    </p>
-  </section>
-</p>
-
-
 
 <p align="center">
   <img src="foto/bill.jpeg" alt="Sentiment Analysis Visualization" width="auto" height="auto" allow="autoplay">
