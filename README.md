@@ -1,4 +1,4 @@
-<h1 align="center">Music Sentiment Analysis</h1>
+<h1 align="center">Musical Artist Sentiment Analysis</h1>
 <p align="center">
   <img src="icon.png" width="400" height="340" allow="autoplay">
 </p>
