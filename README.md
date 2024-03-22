@@ -40,7 +40,7 @@
   <section id="how-to">
     <h2>Getting Started</h2>
     <p>
-    The focus of this project will be on Sentiment Analysis towards music. The goal for this project 
+    The focus of this project will be on Sentiment Analysis. The hope to guide preliminary EDA.
     </p>
   </section>
 </P>
