@@ -59,10 +59,7 @@
   <section id="methods">
     <h2>Methods</h2>
     <ul>
-      <li>SQL Code</li>
-      <li>Excel Dashboard</li>
-      <li>Tableau Dashboard</li>
-      <li>SQL Generated Report - Looker </li>
+      <li>R Programming</li>
       <li>PowerPoint</li>
     </ul>
   </section>
@@ -72,10 +69,7 @@
   <section id="tech-stack">
     <h2>Tech Stack</h2>
     <ul>
-      <li>Google Cloud(Google BigQuery)</li>
-      <li>Excel </li>
-      <li>Looker Studio(SQL Report)</li>
-      <li>PowerBI</li>
+      <li>Posit Cloud</li>
     </ul>
   </section>
 </p>
