@@ -161,8 +161,9 @@ bing_sentiments &lt;- tidy_df %>%
   </section>
 </p>
 
+
 <p align="center">
-  <p> THANK YOU! </p>
+  THANK YOU!
 </p>
 
 <div style="text-align: center;">
