@@ -161,5 +161,8 @@ bing_sentiments &lt;- tidy_df %>%
   </section>
 </p>
 
-<IMG SRC="foto/dance.gif">
+<p align="center">
+<p> THANK YOU! </p>
+  <IMG SRC="foto/dance.gif">
+</p>
 
