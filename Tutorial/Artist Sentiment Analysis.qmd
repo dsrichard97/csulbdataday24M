@@ -1,0 +1,118 @@
+---
+title: "{Artist Name} Sentiment Analysis"
+format: html
+editor: visual
+---
+
+## Load Packages
+
+```{r}
+#| warning: false
+
+library(tidyverse) # Is an opinionated collection of R packages designed for data science.
+library(tidytext) # Applies the principles of the tidyverse to analyzing text.
+library(ggwordcloud) # Provides a word cloud text geom for ggplot2.
+library(ggtext) # Provides simple Markdown and HTML rendering for ggplot2.
+library(showtext) # Using Fonts More Easily in R Graphs.
+library(gt) # Create beatiful tables
+```
+
+## Load Fonts
+
+```{r}
+font_add_google("Archivo Black", family = "Archivo Black")
+
+# Automatically use showtext to render text
+showtext_auto()
+```
+
+## Load Dataset
+
+```{r}
+#| warning: false
+
+# Read the CSV file named "BillieEilish.csv" from the specified directory
+# Make sure to adjust the file path accordingly
+df <- read_csv("Data/Artists/BillieEilish.csv")
+```
+
+## Data Summary
+
+```{r}
+df %>%
+  slice(1:3) %>%
+  knitr::kable()
+
+# Generate summary statistics for the dataframe
+summary(df)
+```
+
+```{r}
+# Get unique values of the 'Album' column in the dataframe
+unique(df$Album)
+```
+
+## Get The Albums We Want
+
+```{r}
+# Group the dataframe 'df' by the 'Album' column and count the occurrences of each album,
+# sorting the result in descending order
+df %>%
+  group_by(Album) %>%
+  count(sort = TRUE)
+
+
+# Filter the dataframe 'df' to include only rows where the 'Album' column matches
+# either "Unreleased Songs" or "WHEN WE ALL FALL ASLEEP, WHERE DO WE GO? (Japanese Import)"
+df <- df %>%
+  filter(Album %in% c("Unreleased Songs", "WHEN WE ALL FALL ASLEEP, WHERE DO WE GO? (Japanese Import)"))
+
+# df %>%
+#   group_by(Title, Album) %>%
+#   filter(n()>1)
+```
+
+## Tidying up the lyrics
+
+```{r}
+# Tokenize the 'Lyric' column in the dataframe 'df' and store the result in 'df_tok',
+df_tok <- df %>%
+  unnest_tokens(word, Lyric)
+
+# Generate a table (using the 'gt' function) that displays the top 6 most common words
+gt(df_tok %>%
+  count(word, sort = TRUE) %>%
+  slice(1:6))
+```
+
+```{r}
+# Remove stop words from the tokenized dataframe 'df_tok' and store the result in 'tidy_df'
+tidy_df <- df_tok %>%
+  anti_join(stop_words)
+
+# Generate a table (using the 'gt' function) that displays the top 10 most common words
+gt(tidy_df %>%
+  count(word, sort = TRUE) %>%
+  slice(1:10)) 
+```
+
+## Sentiment Analysis on Some of the Albums Using “bing”
+
+### Most Common Positive And Negative Words By Album Or Just In General
+
+```{r}
+# Perform sentiment analysis using the Bing lexicon on the tokenized and cleaned dataframe 'tidy_df'
+bing_sentiments <- tidy_df %>%
+  inner_join(get_sentiments("bing")) %>%
+  count(Album, word, sentiment, sort = TRUE) %>%
+  mutate(n = scales::rescale(n)) %>%
+  arrange(-n) %>%
+  ungroup()
+
+# Display the first few rows of the resulting dataframe 'bing_sentiments'
+head(bing_sentiments)
+
+# tidy_df %>%
+#   inner_join(get_sentiments("bing")) %>%
+#   count(sentiment, sort = TRUE)
+```
