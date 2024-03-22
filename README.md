@@ -70,43 +70,19 @@ This is an example of how you may give instructions on setting up your project l
 
 ### Prerequisites
 
-Be able to R posit Cloud by creating an account through email or csulb email. For more information visit the following [link:](https://www.google.com/search?q=r+posit+cloud&oq=r+posit+&gs_lcrp=EgZjaHJvbWUqDAgAECMYJxiABBiKBTIMCAAQIxgnGIAEGIoFMgoIARBFGBYYHhg5MgcIAhAAGIAEMgcIAxAAGIAEMgcIBBAAGIAEMgcIBRAAGIAEMgcIBhAAGIAEMggIBxAAGBYYHjIICAgQABgWGB4yCAgJEAAYFhgeqAIAsAIA&sourceid=chrome&ie=UTF-8#:~:text=with%20Site%20Links-,Posit%20Cloud,https%3A//posit.cloud,-Posit%20Cloud%20(formerly)
-
-- npm
+Be able to R posit Cloud by creating an account through email or csulb email. For more information visit the following [link:](https://posit.co/products/cloud/cloud/)
 
 ### Installing and Running
 
-Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services.
+Need to have connection to internet and depednding on data load. Firs couple Gbs should be free after ram is stored on the cloud.
 
-```bash
-# Clone this repository
-$ git clone https://github.com/[your-github-user]/[your-repository-name]
 
-# Go into the repository
-$ cd [your-repository-name]
-```
-
-## FAQ
-
-### Is it any good?
+### What is Sentiment Analysis?
 
 [yes.](https://news.ycombinator.com/item?id=3067434)
 
-## Definitions
 
-- This are constraints you give to your project
-- Here's another constraint: use this README!
-
-## Roadmap
-
-- [x] Add this README.
-- [ ] Finish the unicorn project.
-
-## Emailware
-
-[Project's name] is an [emailware](https://en.wiktionary.org/wiki/emailware). Meaning, if you liked using this app or it has helped you in any way, I'd like you send me an email at <your-email@email.com> about anything you'd want to say about this software. I'd really appreciate it!
-
-## Contributing
+## Contributions
 
 If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
 Don't forget to give the project a star! Thanks again!
