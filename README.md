@@ -6,7 +6,7 @@
   <br>
 </h1>
 
-<h4 align="center">[Project's description]</h4>
+<h4 align="center">[Music Analysis - Data Day 2024]</h4>
 
 <p align="center">
   [Project's badges]
