@@ -29,6 +29,7 @@
 
 <h1 align="center">
   <br>
+  ![screenshot](https://github.com/dsrichard97/csulbdataday24M/blob/main/icon.png)
   [Project's Logo]
   <br>
   [Project's name]
