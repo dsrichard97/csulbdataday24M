@@ -162,7 +162,11 @@ bing_sentiments &lt;- tidy_df %>%
 </p>
 
 <p align="center">
-<p> THANK YOU! </p>
-  <IMG SRC="foto/dance.gif">
+  <p> THANK YOU! </p>
 </p>
 
+<div style="text-align: center;">
+  <p align="center">
+    <IMG SRC="foto/dance.gif">
+  </p>
+</div>
