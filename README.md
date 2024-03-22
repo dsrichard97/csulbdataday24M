@@ -8,7 +8,6 @@
 <!-- badges -->
 
 <p>
-  <img src="https://img.shields.io/badge/Mircosoft Excel%2B-blue" title="Microsoft Excel">
   <img src="https://img.shields.io/badge/SentimentAnalysis%2B-green" title="SentimentAnalysis">
   <img src="https://img.shields.io/badge/R%2B-orange" title="R">
   <img src="https://img.shields.io/badge/PositCloud%2B-red" title="PositCloud">
