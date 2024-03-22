@@ -59,11 +59,10 @@ Simple overview of use/purpose.
 
 ## Key Features
 
-- Feature 1
-- Feature 2
-  - Feature 2.1
-  - Feature 2.2
-- Feature 3
+- Clean Data
+- Sentiment Analysis
+  - Album Discovery
+  - Word Cloud Plot
 
 ## Getting Started
 
@@ -71,7 +70,7 @@ This is an example of how you may give instructions on setting up your project l
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
+Be able to R posit Cloud by creating an account through email or csulb email. For more information visit the following [link:](https://www.google.com/search?q=r+posit+cloud&oq=r+posit+&gs_lcrp=EgZjaHJvbWUqDAgAECMYJxiABBiKBTIMCAAQIxgnGIAEGIoFMgoIARBFGBYYHhg5MgcIAhAAGIAEMgcIAxAAGIAEMgcIBBAAGIAEMgcIBRAAGIAEMgcIBhAAGIAEMggIBxAAGBYYHjIICAgQABgWGB4yCAgJEAAYFhgeqAIAsAIA&sourceid=chrome&ie=UTF-8#:~:text=with%20Site%20Links-,Posit%20Cloud,https%3A//posit.cloud,-Posit%20Cloud%20(formerly)
 
 - npm
 
