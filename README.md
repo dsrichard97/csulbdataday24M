@@ -45,7 +45,7 @@
   <section id="how-to">
     <h2>Getting Started</h2>
     <p>
-    The focus of this project will be on Sentiment Analysis. The hope to guide preliminary EDA.
+    The focus of this project will be on Sentiment Analysi on music data(spotify).
     </p>
 
   
@@ -131,6 +131,10 @@ bing_sentiments &lt;- tidy_df %>%
     <li>Plot frequency of sentiments with ggplot2.</li>
     <li>Analyze results for trends in sentiment.</li>
 </ul>
+
+<p align="center">
+  <img src="foto/Scatt.jpeg" alt="Sentiment Analysis Visualization" width="auto" height="auto" allow="autoplay">
+</p>
 
 <h2>Step 7: Share Your Findings</h2>
 <p>Compile your analysis into a report using Quattro or R markdown. Share on Github. Use as a project for resume.</p>
