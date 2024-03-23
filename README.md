@@ -61,7 +61,7 @@
   <section id="data-source">
     <h2>Data Source</h2>
     <p>
-      Data was extracted using a Token API using spotify access. For further replication on the use of an Spotify API: <li><a href="https://developer.spotify.com/documentation/web-api">Click here</a></li>
+      Data was extracted using a Token API using spotify access. For further replication on the use of an Spotify API.
     </p>
      <p>
       For Posit Cloud : <li><a href="https://posit.cloud/spaces/492442/join?access_code=u6I0WqYdMEAEpurepEvueaIY13XsEeMXWeBkU3mM">Click here</a></li>
