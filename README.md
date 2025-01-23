@@ -165,8 +165,8 @@ bing_sentiments &lt;- tidy_df %>%
   THANK YOU!
 </p>
 
-<-!<div style="text-align: center;">->
-  <-!<p align="center">->
-    <-!<IMG SRC="foto/dance.gif">->
-  <-!</p>->
+<!--<div style="text-align: center;">-->
+  <!--<p align="center">-->
+    <!--<IMG SRC="foto/dance.gif">-->
+  <!--</p>-->
 </div>
