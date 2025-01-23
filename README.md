@@ -167,6 +167,6 @@ bing_sentiments &lt;- tidy_df %>%
 
 <!--<div style="text-align: center;">-->
   <!--<p align="center">-->
-    <!--<IMG SRC="foto/dance.gif">-->
+   <!--<IMG SRC="foto/dance.gif">-->
   <!--</p>-->
 </div>
